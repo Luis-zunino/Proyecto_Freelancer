@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build-css": "node-sass --include-path scss ASSETS/SCSS/style.scss ASSETS/CSS/style.css",
+    "build-css": "node-sass --include-path scss ASSETS/SASS/style.scss ASSETS/CSS/style.css",
     "watch-css": "nodemon -e scss -x \"npm run build-css\""
   },
   "repository": {
@@ -15,7 +15,10 @@
   "author": "Luis Zunino",
   "license": "ISC",
   "dependencies": {
-    "nodemon": "^2.0.7",
     "sass": "^1.32.5"
+  },
+  "devDependencies": {
+    "node-sass": "^5.0.0",
+    "nodemon": "^2.0.7"
   }
 }
