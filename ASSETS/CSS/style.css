@@ -3,10 +3,21 @@
 .nav-bg {
   background-color: #0097A7; }
   .nav-bg .navegacion {
-    padding: 1rem; }
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between; }
+    @media (max-width: 768px) {
+      .nav-bg .navegacion {
+        flex-direction: column; } }
     .nav-bg .navegacion a {
       color: #fff;
-      text-decoration: none; }
+      text-decoration: none;
+      font-size: 2rem;
+      font-weight: bold;
+      padding: 1rem; }
+      .nav-bg .navegacion a:hover {
+        background-color: #FFC107;
+        color: #212121; }
 
 html {
   font-size: 62.5%; }
@@ -15,7 +26,7 @@ html {
     font-family: 'Krub', sans-serif; }
 
 .contenedor {
-  width: 95%;
+  width: 80%;
   margin: 0 auto; }
 
 header .titulo {

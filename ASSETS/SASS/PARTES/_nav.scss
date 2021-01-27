@@ -5,11 +5,24 @@
 
     .navegacion {
         padding: 1rem;
+        display: flex;
+        justify-content: space-between;
+
+        @media (max-width: 768px) {
+            flex-direction: column;
+        }
 
         a {
             color: $blanco;
             text-decoration: none;
+            font-size: 2rem;
+            font-weight: bold;
+            padding: 1rem;
 
+            &:hover {
+                background-color: $primario;
+                color: $negro;
+            }
         }
     }
 }
