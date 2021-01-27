@@ -2,6 +2,9 @@
 @import "PARTES/nav";
 @import "PARTES/hero";
 @import "PARTES/main";
+@import "PARTES/contacto";
+@import "PARTES/footer";
+
 
 html {
     box-sizing: border-box;
@@ -11,7 +14,7 @@ html {
     body {
         font-size: 16px;
         font-family: 'Krub', sans-serif;
-        background-image: linear-gradient(to top,#DFE9F3 0%, $blanco);
+        background-image: linear-gradient(to top, #DFE9F3 0%, $blanco);
     }
 }
 
@@ -46,4 +49,30 @@ h1,
 h2,
 h3 {
     text-align: center;
+}
+
+.boton {
+    background-color: $secundario;
+    color: $blanco;
+    padding: 1rem 3rem;
+    margin-top: 1rem;
+    font-size: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: .5rem;
+    border: none;
+
+    &:hover {
+        cursor: pointer;
+    }
+
+    @media (max-width: 480px) {
+        width: 80%;
+        text-align: center;
+    }
+}
+
+.w-100 {
+    width: 100%;
 }
