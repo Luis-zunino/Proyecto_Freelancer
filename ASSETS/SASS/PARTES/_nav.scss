@@ -1,6 +1,15 @@
 @import "variables";
 
-.navegacion {
-    color: #000;
+.nav-bg {
     background-color: $secundario;
+
+    .navegacion {
+        padding: 1rem;
+
+        a {
+            color: $blanco;
+            text-decoration: none;
+
+        }
+    }
 }

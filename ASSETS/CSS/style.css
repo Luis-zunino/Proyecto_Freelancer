@@ -1,8 +1,12 @@
 /*variables*/
 /*variables*/
-.navegacion {
-  color: #000;
+.nav-bg {
   background-color: #0097A7; }
+  .nav-bg .navegacion {
+    padding: 1rem; }
+    .nav-bg .navegacion a {
+      color: #fff;
+      text-decoration: none; }
 
 html {
   font-size: 62.5%; }
@@ -11,7 +15,8 @@ html {
     font-family: 'Krub', sans-serif; }
 
 .contenedor {
-  width: 95%; }
+  width: 95%;
+  margin: 0 auto; }
 
 header .titulo {
   text-align: center;
