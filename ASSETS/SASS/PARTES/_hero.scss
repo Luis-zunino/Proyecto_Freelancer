@@ -1,0 +1,46 @@
+@import "variables";
+
+.hero {
+    background-image: url(../IMG/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 45rem;
+
+    .contenido-hero {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: rgba($color: #000000, $alpha: .7);
+        // background-color: rgb(0 0 0 / 70%);
+        display: flex;
+        flex-direction: column;
+        /*Cuando se cambia la direccion de row a column 
+        la alineacion se invierte align-item alinea vertical
+         y justify-content horizontal*/
+        align-items: center;
+        justify-content: center;
+
+        h2,
+        p {
+            color: $blanco;
+        }
+
+        .boton {
+            background-color: $secundario;
+            color: $blanco;
+            padding: 1rem 3rem;
+            margin-top: 1rem;
+            font-size: 2rem;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-weight: bold;
+            border-radius: .5rem;
+
+            @media (max-width: 480px) {
+                width: 80%;
+                text-align: center;
+            }
+        }
+    }
+}
