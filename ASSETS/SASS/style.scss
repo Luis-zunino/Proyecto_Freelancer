@@ -9,7 +9,7 @@
 html {
     box-sizing: border-box;
     font-size: 62.5%;
-    scroll-snap-type: y mandatory;
+    // scroll-snap-type: y mandatory;
     /*sirve para dar scroll y que se detenga en cada luagar que indiquemos*/
 
 
@@ -80,10 +80,11 @@ h3 {
     width: 100%;
 }
 
-.servicios,
-.navegacion,
-.formulario {
-    scroll-snap-align: center;
-    scroll-snap-stop: always;
-    /*sirve para dar scroll y que se detenga en cada luagar que indiquemos*/
-}
+// .servicios,
+// .navegacion,
+// .formulario {
+//     scroll-snap-align: center;
+//     scroll-snap-stop: always;
+//     /*sirve para dar scroll y que se detenga en cada luagar que indiquemos*/
+// /*no scrollea bien*/
+// }
