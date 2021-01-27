@@ -1,2 +1,18 @@
-main {
-  width: 90%; }
+/*variables*/
+/*variables*/
+.navegacion {
+  color: #000;
+  background-color: #0097A7; }
+
+html {
+  font-size: 62.5%; }
+  html body {
+    font-size: 16px;
+    font-family: 'Krub', sans-serif; }
+
+.contenedor {
+  width: 95%; }
+
+header .titulo {
+  text-align: center;
+  font-size: 3.8rem; }
