@@ -80,6 +80,17 @@ h3 {
     width: 100%;
 }
 
+header {
+    h1 {
+        a {
+            color: $negro;
+            &:hover{
+                color: $primario;
+            }
+        }
+    }
+}
+
 // .servicios,
 // .navegacion,
 // .formulario {
